@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB000001000000000000001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB000001000000000000000 /* Foundation.framework */; };
+		BB000010000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000010000000000000000 /* AppDelegate.swift */; };
+		BB000020000000000000001 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000020000000000000000 /* Recording.swift */; };
+		BB000030000000000000001 /* AudioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000030000000000000000 /* AudioViewModel.swift */; };
+		BB000040000000000000001 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000040000000000000000 /* SpeechRecognizer.swift */; };
+		BB000050000000000000001 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000050000000000000000 /* MainViewController.swift */; };
+		BB000060000000000000001 /* DetailViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000060000000000000000 /* DetailViewControllers.swift */; };
+		BB000070000000000000001 /* RecordingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000070000000000000000 /* RecordingTableViewCell.swift */; };
+		BB000080000000000000001 /* WaveformUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000080000000000000000 /* WaveformUIView.swift */; };
+		BB000090000000000000001 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000090000000000000000 /* SplashViewController.swift */; };
+		BB000200000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB000200000000000000000 /* Assets.xcassets */; };
+		BB0000D0000000000000001 /* GuidanceOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000D0000000000000000 /* GuidanceOverlayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB000001000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BB000010000000000000000 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB000020000000000000000 /* Recording.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		BB000030000000000000000 /* AudioViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioViewModel.swift; sourceTree = "<group>"; };
+		BB000040000000000000000 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		BB000050000000000000000 /* MainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BB000060000000000000000 /* DetailViewControllers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailViewControllers.swift; sourceTree = "<group>"; };
+		BB000070000000000000000 /* RecordingTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecordingTableViewCell.swift; sourceTree = "<group>"; };
+		BB000080000000000000000 /* WaveformUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WaveformUIView.swift; sourceTree = "<group>"; };
+		BB000090000000000000000 /* SplashViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		BB000200000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB000300000000000000000 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CC000001000000000000000 /* AudioRecorderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioRecorderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0000D0000000000000000 /* GuidanceOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GuidanceOverlayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD000001000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB000001000000000000001 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE000001000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				EE000002000000000000000 /* Products */,
+				EE000003000000000000000 /* Frameworks */,
+				EE000010000000000000000 /* AudioRecorderApp */,
+			);
+			sourceTree = "<group>";
+		};
+		EE000002000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC000001000000000000000 /* AudioRecorderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE000003000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB000001000000000000000 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE000010000000000000000 /* AudioRecorderApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB000010000000000000000 /* AppDelegate.swift */,
+				BB000200000000000000000 /* Assets.xcassets */,
+				BB000300000000000000000 /* README.md */,
+				EE000020000000000000000 /* Models */,
+				EE000030000000000000000 /* ViewModels */,
+				EE000040000000000000000 /* Views */,
+			);
+			name = AudioRecorderApp;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE000020000000000000000 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB000020000000000000000 /* Recording.swift */,
+			);
+			path = Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE000030000000000000000 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BB000030000000000000000 /* AudioViewModel.swift */,
+				BB000040000000000000000 /* SpeechRecognizer.swift */,
+			);
+			path = ViewModels;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE000040000000000000000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000D0000000000000000 /* GuidanceOverlayView.swift */,
+				EE000050000000000000000 /* Controllers */,
+				EE000060000000000000000 /* Cells */,
+				EE000070000000000000000 /* Components */,
+			);
+			path = Views;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE000050000000000000000 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB000050000000000000000 /* MainViewController.swift */,
+				BB000060000000000000000 /* DetailViewControllers.swift */,
+				BB000090000000000000000 /* SplashViewController.swift */,
+			);
+			name = Controllers;
+			path = Views/Controllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE000060000000000000000 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB000070000000000000000 /* RecordingTableViewCell.swift */,
+			);
+			name = Cells;
+			path = Views/Cells;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE000070000000000000000 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BB000080000000000000000 /* WaveformUIView.swift */,
+			);
+			name = Components;
+			path = Views/Components;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF000001000000000000000 /* AudioRecorderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF000002000000000000000 /* Build configuration list for PBXNativeTarget "AudioRecorderApp" */;
+			buildPhases = (
+				FF000010000000000000000 /* Sources */,
+				DD000001000000000000000 /* Frameworks */,
+				FF000020000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioRecorderApp;
+			productName = AudioRecorderApp;
+			productReference = CC000001000000000000000 /* AudioRecorderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF000003000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FF000001000000000000000 = {
+						DevelopmentTeam = J98KS528GJ;
+					};
+				};
+			};
+			buildConfigurationList = FF000004000000000000000 /* Build configuration list for PBXProject "AudioRecorderApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE000001000000000000000;
+			productRefGroup = EE000002000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF000001000000000000000 /* AudioRecorderApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF000020000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB000200000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF000010000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB000010000000000000001 /* AppDelegate.swift in Sources */,
+				BB000020000000000000001 /* Recording.swift in Sources */,
+				BB000030000000000000001 /* AudioViewModel.swift in Sources */,
+				BB000040000000000000001 /* SpeechRecognizer.swift in Sources */,
+				BB000050000000000000001 /* MainViewController.swift in Sources */,
+				BB000060000000000000001 /* DetailViewControllers.swift in Sources */,
+				BB000070000000000000001 /* RecordingTableViewCell.swift in Sources */,
+				BB000080000000000000001 /* WaveformUIView.swift in Sources */,
+				BB000090000000000000001 /* SplashViewController.swift in Sources */,
+				BB0000D0000000000000001 /* GuidanceOverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF000001000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				DEVELOPMENT_TEAM = J98KS528GJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access to record audio.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to generate text transcripts of your audio recordings.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.AudioRecorderApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CF000002000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				DEVELOPMENT_TEAM = J98KS528GJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access to record audio.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to generate text transcripts of your audio recordings.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.AudioRecorderApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF000003000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CF000004000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF000002000000000000000 /* Build configuration list for PBXNativeTarget "AudioRecorderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF000001000000000000000 /* Debug */,
+				CF000002000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF000004000000000000000 /* Build configuration list for PBXProject "AudioRecorderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF000003000000000000000 /* Debug */,
+				CF000004000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF000003000000000000000 /* Project object */;
+}
